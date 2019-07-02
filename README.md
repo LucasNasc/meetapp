@@ -22,14 +22,16 @@
    yarn sucrase-node src/server.js
    ```   
    
-  - para  facilitar o nosso ambiente, criaremos um script para este comando no package.json, basta criar um atributo com nome de scripts,
-  eu coloquei o nome de "dev", mas isso fica a seu critério:
+  - para  facilitar o nosso ambiente, criaremos um script para este comando no package.json, basta criar um atributo com nome de scripts,eu coloquei o nome de "dev", mas isso fica a seu critério:
   
-  "scripts" : { "dev" : nodemon src/server.js }    
+   ```
+   "scripts" : { "dev" : nodemon src/server.js } 
+   ```     
     
   - nodemon faz com que ele verifique qualquer alteração feita no código fonte e reinicie o servidor automaticamente. Para que o nodemon
     entenda o script que fizemos acima e consiga subir corretamente junto ao sucrase, deveremos criar um arquivo chamado ###nodemon.json na                raiz do seu projeto com as seguintes configuracoes : 
     
+    ```
     { "execMap": { "js" : "sucrase-node" }  }
-    
+   
    - neste trecho eu informo que quando eu executar o nodemon em arquivos com extensão 'js' ele utilize em vez de "nodemon ...." , o "sucrase node"
