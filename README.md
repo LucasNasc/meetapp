@@ -28,8 +28,8 @@
    "scripts" : { "dev" : nodemon src/server.js } 
    ```     
     
-  - nodemon faz com que ele verifique qualquer alteração feita no código fonte e reinicie o servidor automaticamente. Para que o nodemon
-    entenda o script que fizemos acima e consiga subir corretamente junto ao sucrase, deveremos criar um arquivo chamado ###nodemon.json na                raiz do seu projeto com as seguintes configuracoes : 
+  - nodemon faz com que ele verifique qualquer alteração feita no código fonte e reinicie o servidor automaticamente.
+  - Para que o nodemon entenda o script que fizemos acima e consiga subir corretamente junto ao sucrase, deveremos criar um arquivo chamado nodemon.json na raiz do seu projeto com as seguintes configuracoes : 
     
   ```
   { "execMap": { "js" : "sucrase-node" }  }
