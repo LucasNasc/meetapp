@@ -16,10 +16,12 @@
 
     yarn add sucrase nodemon -D 
 
-  - sucrase permite importar dar forma atual, sem precisar usar o modelo commonJS, porém você deverá subir o servidor com os seguintes comnados : 
+  - sucrase permite importar dar forma atual, sem precisar usar o modelo commonJS, porém você deverá subir o servidor com os seguintes comnados: 
     
-    yarn sucrase-node src/server.js
-  
+   ```
+   yarn sucrase-node src/server.js
+   ```   
+   
   - para  facilitar o nosso ambiente, criaremos um script para este comando no package.json, basta criar um atributo com nome de scripts,
   eu coloquei o nome de "dev", mas isso fica a seu critério:
   
