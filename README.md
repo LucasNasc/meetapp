@@ -39,3 +39,12 @@
    ```
    yarn dev
    ```
+
+  ### Base de dados no docker: 
+  
+  - Para criar um container do postgres no docker segue o comando : 
+  
+  ```
+    docker run --name some-postgres -e POSTGRES_PASSWORD=senhaDoBanco -d postgres -p 5432:5432
+  ```
+  
