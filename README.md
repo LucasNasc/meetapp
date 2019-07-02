@@ -8,7 +8,7 @@
   
 ## Passos Para Configuração de Ambiente do Zero(levando em consideração que você tem node e yarn na sua máquina): 
   
-  Crie um diretório para o projeto, e rode os seguintes comandos:
+  Crie um diretório para o projeto, e rode os seguinte comando:
   
     yarn init -y
 
