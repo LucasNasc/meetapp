@@ -40,6 +40,25 @@
    yarn dev
    ```
 
+  ### Plugins para padronização de código:
+  
+  - utilizaremos eslint
+  
+  ```
+  yarn add eslint -D
+  ```
+  - agora iniciaremos a configuracao do arquivo de configuracao do ESLint, com padrao airBnB
+  
+   ```
+   yarn eslint --init
+   ```
+  - seguir as configurações no arquivo eslintrc.js contidas no respositório. 
+  - adicionando prettier
+  
+  ```
+  yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+  ```
+  
   ### Base de dados no docker: 
   
   - Para criar um container do postgres no docker segue o comando : 
