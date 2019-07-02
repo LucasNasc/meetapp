@@ -34,4 +34,4 @@
   ```
   { "execMap": { "js" : "sucrase-node" }  }
    ``` 
-   - neste trecho eu informo que quando eu executar o nodemon em arquivos com extensão 'js' ele utilize em vez de "nodemon ...." , o "sucrase node"
+   - neste trecho eu informo que quando eu executar o nodemon em arquivos com extensão 'js' ele utilize em vez de "nodemon ...." , o "sucrase node",
