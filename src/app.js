@@ -1,8 +1,8 @@
-//configuracao do servidor express
+// configuracao do servidor express
 import express from 'express';
 import routes from './routes';
 
-class App { 
+class App {
   constructor() {
     this.server = express();
 
@@ -11,8 +11,8 @@ class App {
   }
 
   middewares() {
-    //permite com que nosso servidor entenda requisições em json
-    this.server.use(express.json())
+    // permite com que nosso servidor entenda requisições em json
+    this.server.use(express.json());
   }
 
   routes() {
