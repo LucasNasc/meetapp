@@ -58,7 +58,11 @@
   ```
   yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
   ```
+  - para que o eslint configure automaticamente após salvar utilize o comando: 
   
+  ```
+  yarn eslint --fix src --ext .js
+  ```
   ### Base de dados no docker: 
   
   - Para criar um container do postgres no docker segue o comando : 
