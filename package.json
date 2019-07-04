@@ -1,6 +1,6 @@
 {
   "name": "new-lucas-project",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My New Project description.",
   "main": "app.js",
   "repository": {
@@ -8,12 +8,7 @@
     "type": "git"
   },
   "files": [
-    "*.editorconfig",
-    "*.eslintrc.js",
-    "*.gitignore",
-    "*.sequelizerc",
-    "*.nodemon.json",
-    "src/*.js"
+    "*"
   ],
   "author": "Lucas Nascimento <lucaspnascimento@hotmail.com>",
   "license": "GNU"
