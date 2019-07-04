@@ -70,4 +70,9 @@
   ```
     docker run --name some-postgres -e POSTGRES_PASSWORD=senhaDoBanco -d postgres -p 5432:5432
   ```
+  - Agora instalaremos o sequelize( ORM para o node ), e sequelize CLI ( para podermos executar nossas migrations futuramente  )
   
+    ```
+    yarn add sequelize
+    yarn add sequelize-cli
+  ```
